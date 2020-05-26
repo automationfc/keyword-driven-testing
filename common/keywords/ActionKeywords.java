@@ -6,14 +6,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import executionEngine.RunTestscript;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import utility.Constants;
 import utility.Log;
 
@@ -25,17 +23,16 @@ public class ActionKeywords {
 		Log.info("Opening Browser");
 		try {
 			if (browser.equalsIgnoreCase("Firefox")) {
+				WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver();
 				Log.info("Firefox browser started");
 			} else if (browser.equalsIgnoreCase("IE")) {
-				System.setProperty("webdriver.ie.driver", "..\\Hybrid Keyword Driven\\driver\\IEDriverServer.exe");
+				WebDriverManager.iedriver().setup();
 				driver = new InternetExplorerDriver();
 				Log.info("IE browser started");
 			} else if (browser.equalsIgnoreCase("Chrome")) {
-				System.setProperty("webdriver.chrome.driver", "..\\Hybrid Keyword Driven\\driver\\chromedriver.exe");
-				ChromeOptions options = new ChromeOptions();
-				options.addArguments("disable-infobars");
-				driver = new ChromeDriver(options);
+				WebDriverManager.chromedriver().setup();
+				driver = new ChromeDriver();
 				Log.info("Chrome browser started");
 			}
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -99,18 +96,6 @@ public class ActionKeywords {
 		}
 	}
 
-	public static void waitForControlVisible(String locator, String data) throws Exception {
-		try {
-			Log.info("Wait for control is visible");
-			WebDriverWait wait = new WebDriverWait(driver, 30);
-			By by = By.xpath(locator);
-			wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(by));
-		} catch (Exception e) {
-			Log.error("Element not visible --- " + e.getMessage());
-			RunTestscript.bResult = false;
-		}
-	}
-
 	public static void selectDropdown(String locator, String data) {
 		try {
 			Log.info("Selecting to Dropdown/List " + locator);
@@ -131,7 +116,7 @@ public class ActionKeywords {
 			RunTestscript.bResult = false;
 		}
 	}
-	
+
 	public static void isControlSelected(String locator, String data) {
 		try {
 			Log.info("Check WebElement is displayed " + locator);

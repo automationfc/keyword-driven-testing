@@ -1,0 +1,135 @@
+2020-05-26 20:50:37,842 INFO  [Log] Total testcase = 6 
+2020-05-26 20:50:37,845 INFO  [Log] Total testcase = LogIn_01 
+2020-05-26 20:50:37,845 INFO  [Log] Run mode = Yes 
+2020-05-26 20:50:37,845 INFO  [Log] Teststep = 1 
+2020-05-26 20:50:37,846 INFO  [Log] Last step = 22 
+2020-05-26 20:50:37,847 INFO  [Log] Action keyword = openBrowser 
+2020-05-26 20:50:37,847 INFO  [Log] Page Object =  
+2020-05-26 20:50:37,847 INFO  [Log] Data set = Chrome 
+2020-05-26 20:50:37,847 INFO  [Log] Opening Browser 
+2020-05-26 20:51:36,433 INFO  [Log] Total testcase = 6 
+2020-05-26 20:51:36,436 INFO  [Log] Total testcase = LogIn_01 
+2020-05-26 20:51:36,436 INFO  [Log] Run mode = Yes 
+2020-05-26 20:51:36,437 INFO  [Log] Teststep = 1 
+2020-05-26 20:51:36,440 INFO  [Log] Last step = 22 
+2020-05-26 20:51:36,440 INFO  [Log] Action keyword = openBrowser 
+2020-05-26 20:51:36,441 INFO  [Log] Page Object =  
+2020-05-26 20:51:36,441 INFO  [Log] Data set = Chrome 
+2020-05-26 20:51:36,441 INFO  [Log] Opening Browser 
+2020-05-26 20:56:51,299 INFO  [Log] Total testcase = 6 
+2020-05-26 20:56:51,301 INFO  [Log] Total testcase = LogIn_01 
+2020-05-26 20:56:51,302 INFO  [Log] Run mode = Yes 
+2020-05-26 20:56:51,302 INFO  [Log] Teststep = 1 
+2020-05-26 20:56:51,304 INFO  [Log] Last step = 22 
+2020-05-26 20:56:51,304 INFO  [Log] Action keyword = openBrowser 
+2020-05-26 20:56:51,304 INFO  [Log] Page Object =  
+2020-05-26 20:56:51,304 INFO  [Log] Data set = Chrome 
+2020-05-26 20:56:51,305 INFO  [Log] Opening Browser 
+2020-05-26 20:58:38,053 INFO  [Log] Total testcase = 6 
+2020-05-26 20:58:38,057 INFO  [Log] Total testcase = LogIn_01 
+2020-05-26 20:58:38,057 INFO  [Log] Run mode = Yes 
+2020-05-26 20:58:38,057 INFO  [Log] Teststep = 1 
+2020-05-26 20:58:38,060 INFO  [Log] Last step = 22 
+2020-05-26 20:58:38,060 INFO  [Log] Action keyword = openBrowser 
+2020-05-26 20:58:38,060 INFO  [Log] Page Object =  
+2020-05-26 20:58:38,060 INFO  [Log] Data set = Firefox 
+2020-05-26 20:58:38,060 INFO  [Log] Opening Browser 
+2020-05-26 21:01:11,100 INFO  [Log] Total testcase = 6 
+2020-05-26 21:01:11,103 INFO  [Log] Total testcase = LogIn_01 
+2020-05-26 21:01:11,103 INFO  [Log] Run mode = Yes 
+2020-05-26 21:01:11,104 INFO  [Log] Teststep = 1 
+2020-05-26 21:01:11,106 INFO  [Log] Last step = 22 
+2020-05-26 21:01:11,106 INFO  [Log] Action keyword = openBrowser 
+2020-05-26 21:01:11,106 INFO  [Log] Page Object =  
+2020-05-26 21:01:11,106 INFO  [Log] Data set = Chrome 
+2020-05-26 21:01:11,107 INFO  [Log] Opening Browser 
+2020-05-26 21:11:15,673 INFO  [Log] Total testcase = 6 
+2020-05-26 21:11:15,676 INFO  [Log] Total testcase = LogIn_01 
+2020-05-26 21:11:15,676 INFO  [Log] Run mode = Yes 
+2020-05-26 21:11:15,676 INFO  [Log] Teststep = 1 
+2020-05-26 21:11:15,678 INFO  [Log] Last step = 22 
+2020-05-26 21:11:15,678 INFO  [Log] Action keyword = openBrowser 
+2020-05-26 21:11:15,678 INFO  [Log] Page Object =  
+2020-05-26 21:11:15,678 INFO  [Log] Data set = Chrome 
+2020-05-26 21:11:15,678 INFO  [Log] Opening Browser 
+2020-05-26 21:11:19,340 INFO  [Log] Chrome browser started 
+2020-05-26 21:11:21,552 INFO  [Log] Action keyword = navigate 
+2020-05-26 21:11:21,552 INFO  [Log] Page Object =  
+2020-05-26 21:11:21,552 INFO  [Log] Data set =  
+2020-05-26 21:11:21,552 INFO  [Log] Navigating to URL 
+2020-05-26 21:11:26,582 INFO  [Log] Action keyword = input 
+2020-05-26 21:11:26,582 INFO  [Log] Page Object = //input[@name='uid'] 
+2020-05-26 21:11:26,582 INFO  [Log] Data set = mngr260207 
+2020-05-26 21:11:26,582 INFO  [Log] Entering the text in //input[@name='uid'] 
+2020-05-26 21:11:26,738 INFO  [Log] Action keyword = input 
+2020-05-26 21:11:26,739 INFO  [Log] Page Object = //input[@name='password'] 
+2020-05-26 21:11:26,739 INFO  [Log] Data set = ehehege 
+2020-05-26 21:11:26,739 INFO  [Log] Entering the text in //input[@name='password'] 
+2020-05-26 21:11:26,907 INFO  [Log] Action keyword = click 
+2020-05-26 21:11:26,907 INFO  [Log] Page Object = //input[@name='btnLogin'] 
+2020-05-26 21:11:26,907 INFO  [Log] Data set =  
+2020-05-26 21:11:26,907 INFO  [Log] Clicking on Webelement //input[@name='btnLogin'] 
+2020-05-26 21:11:29,031 INFO  [Log] Action keyword = isControlDisplayed 
+2020-05-26 21:11:29,031 INFO  [Log] Page Object = //a[contains(text(),'Manager')] 
+2020-05-26 21:11:29,031 INFO  [Log] Data set =  
+2020-05-26 21:11:29,031 INFO  [Log] Check WebElement is displayed //a[contains(text(),'Manager')] 
+2020-05-26 21:11:29,116 INFO  [Log] Action keyword = click 
+2020-05-26 21:11:29,116 INFO  [Log] Page Object = //a[contains(text(),'New Customer')] 
+2020-05-26 21:11:29,116 INFO  [Log] Data set =  
+2020-05-26 21:11:29,116 INFO  [Log] Clicking on Webelement //a[contains(text(),'New Customer')] 
+2020-05-26 21:11:31,218 INFO  [Log] Action keyword = isControlDisplayed 
+2020-05-26 21:11:31,218 INFO  [Log] Page Object = //input[@name='name'] 
+2020-05-26 21:11:31,218 INFO  [Log] Data set =  
+2020-05-26 21:11:31,218 INFO  [Log] Check WebElement is displayed //input[@name='name'] 
+2020-05-26 21:11:31,286 INFO  [Log] Action keyword = input 
+2020-05-26 21:11:31,286 INFO  [Log] Page Object = //input[@name='name'] 
+2020-05-26 21:11:31,286 INFO  [Log] Data set = John Terry 
+2020-05-26 21:11:31,286 INFO  [Log] Entering the text in //input[@name='name'] 
+2020-05-26 21:11:31,459 INFO  [Log] Action keyword = click 
+2020-05-26 21:11:31,459 INFO  [Log] Page Object = //input[@value='m'] 
+2020-05-26 21:11:31,459 INFO  [Log] Data set =  
+2020-05-26 21:11:31,459 INFO  [Log] Clicking on Webelement //input[@value='m'] 
+2020-05-26 21:11:31,552 INFO  [Log] Action keyword = input 
+2020-05-26 21:11:31,552 INFO  [Log] Page Object = //*[@id='dob'] 
+2020-05-26 21:11:31,552 INFO  [Log] Data set = 01-01-1999 
+2020-05-26 21:11:31,552 INFO  [Log] Entering the text in //*[@id='dob'] 
+2020-05-26 21:11:31,671 INFO  [Log] Action keyword = input 
+2020-05-26 21:11:31,671 INFO  [Log] Page Object = //textarea[@name='addr'] 
+2020-05-26 21:11:31,671 INFO  [Log] Data set = 209 PO Box 
+2020-05-26 21:11:31,671 INFO  [Log] Entering the text in //textarea[@name='addr'] 
+2020-05-26 21:11:31,783 INFO  [Log] Action keyword = input 
+2020-05-26 21:11:31,783 INFO  [Log] Page Object = //input[@name='city'] 
+2020-05-26 21:11:31,783 INFO  [Log] Data set = Los Angeles 
+2020-05-26 21:11:31,783 INFO  [Log] Entering the text in //input[@name='city'] 
+2020-05-26 21:11:31,904 INFO  [Log] Action keyword = input 
+2020-05-26 21:11:31,904 INFO  [Log] Page Object = //input[@name='state'] 
+2020-05-26 21:11:31,904 INFO  [Log] Data set = Hawaii 
+2020-05-26 21:11:31,904 INFO  [Log] Entering the text in //input[@name='state'] 
+2020-05-26 21:11:32,009 INFO  [Log] Action keyword = input 
+2020-05-26 21:11:32,009 INFO  [Log] Page Object = //input[@name='pinno'] 
+2020-05-26 21:11:32,009 INFO  [Log] Data set = 635985 
+2020-05-26 21:11:32,009 INFO  [Log] Entering the text in //input[@name='pinno'] 
+2020-05-26 21:11:32,118 INFO  [Log] Action keyword = input 
+2020-05-26 21:11:32,118 INFO  [Log] Page Object = //input[@name='telephoneno'] 
+2020-05-26 21:11:32,118 INFO  [Log] Data set = 0987336985 
+2020-05-26 21:11:32,118 INFO  [Log] Entering the text in //input[@name='telephoneno'] 
+2020-05-26 21:11:32,247 INFO  [Log] Action keyword = input 
+2020-05-26 21:11:32,247 INFO  [Log] Page Object = //input[@name='emailid'] 
+2020-05-26 21:11:32,248 INFO  [Log] Data set = daominhdam1896539@gmail.com 
+2020-05-26 21:11:32,248 INFO  [Log] Entering the text in //input[@name='emailid'] 
+2020-05-26 21:11:32,448 INFO  [Log] Action keyword = input 
+2020-05-26 21:11:32,448 INFO  [Log] Page Object = //input[@name='password'] 
+2020-05-26 21:11:32,448 INFO  [Log] Data set = 123456 
+2020-05-26 21:11:32,448 INFO  [Log] Entering the text in //input[@name='password'] 
+2020-05-26 21:11:32,531 INFO  [Log] Action keyword = click 
+2020-05-26 21:11:32,532 INFO  [Log] Page Object = //input[@name='sub'] 
+2020-05-26 21:11:32,532 INFO  [Log] Data set =  
+2020-05-26 21:11:32,532 INFO  [Log] Clicking on Webelement //input[@name='sub'] 
+2020-05-26 21:11:34,616 INFO  [Log] Action keyword = isControlDisplayed 
+2020-05-26 21:11:34,616 INFO  [Log] Page Object = //p[contains(text(),'Customer Registered Successfully!!!')] 
+2020-05-26 21:11:34,616 INFO  [Log] Data set =  
+2020-05-26 21:11:34,616 INFO  [Log] Check WebElement is displayed //p[contains(text(),'Customer Registered Successfully!!!')] 
+2020-05-26 21:11:34,690 INFO  [Log] Action keyword = closeBrowser 
+2020-05-26 21:11:34,690 INFO  [Log] Page Object =  
+2020-05-26 21:11:34,690 INFO  [Log] Data set =  
+2020-05-26 21:11:34,690 INFO  [Log] Closing the browser 
